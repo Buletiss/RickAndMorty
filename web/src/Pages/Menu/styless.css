@@ -1,0 +1,109 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(32, 35, 41);
+  height: 400px;
+  background-image: url(../../assets/Rick-and-Morty.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Menu li,
+p {
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Menu p {
+  border: 1px solid rgb(255, 152, 0);
+  border-radius: 10px;
+}
+
+.main {
+  background: rgb(32, 35, 41);
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0 0 0;
+}
+
+.info {
+  background-color: rgb(60, 62, 68);
+  display: flex;
+  border-radius: 10px;
+  width: 740px;
+  height: 220px;
+  margin: 30px;
+  color: white;
+}
+
+.info span,
+p {
+  font-size: 20px;
+}
+
+.info img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.green {
+  display: flex;
+  align-items: center;
+  width: 15px;
+  border-radius: 50%;
+  background-color: rgb(85, 204, 68);
+  height: 15px;
+  margin-right: 10px;
+}
+
+.red {
+  display: flex;
+  align-items: center;
+  width: 15px;
+  border-radius: 50%;
+  background-color: red;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.grey {
+  display: flex;
+  align-items: center;
+  width: 15px;
+  border-radius: 50%;
+  background-color: grey;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.box {
+  padding: 20px;
+}
+
+.box * {
+  margin-bottom: 10px;
+}
